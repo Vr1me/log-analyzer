@@ -17,6 +17,10 @@ def calculate_total(price: float, tax: float = 0.19) -> float:
 user = {"name": "Alex", "age": 20}
 user["city"] = "Berlin"
 
+if "email" not in user:
+    user["email"] = "not_provided"
+
+print(user)
 
 # --- File practice ---
 
