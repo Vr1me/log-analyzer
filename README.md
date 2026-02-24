@@ -9,3 +9,5 @@ A simple Python tool that analyzes a log file and counts ERROR and WARNING entri
 ## How to run
 ```bash
 python main.py
+
+Git email fixed
