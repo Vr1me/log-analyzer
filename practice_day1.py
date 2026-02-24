@@ -27,3 +27,7 @@ print(user)
 def count_lines(filepath: str) -> int:
     with open(filepath, "r") as f:
         return len(f.readlines())
+    
+def count_lines(filepath: str) -> int:
+    with open(filepath, "r") as f:
+        return len(f.readlines())
